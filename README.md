@@ -1,4 +1,4 @@
-# Projecte per recuperar dades de satèl·lits NOAA
+# Projecte per recuperar dades de satèl·lits
 
 Aquest repositori conté informació sobre els diferents programes per poder rebre dades de diferents satèl·lits d'Observació a la Terra. La següent taula presenta els satèl·its que s'ha aconseguit rebre amb la informació d'aquest repositori:
 
