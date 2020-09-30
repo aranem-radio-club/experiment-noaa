@@ -1,6 +1,14 @@
 # Projecte per recuperar dades de satèl·lits NOAA
 
-Aquest repositori conté informació sobre els diferents programes per poder rebre imatges dels satèl·lits NOAA (18, 15 i 19). Actualment, l'experiència s'ha realitzat amb un ordinador que conté el sistema operatiu [GNU-Linux](https://www.gnu.org/distros/distros.html), enconcret amb el sistema [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop). El conjunt de programes que es fan servir es llisten a continuació:
+Aquest repositori conté informació sobre els diferents programes per poder rebre dades de diferents satèl·lits d'Observació a la Terra. La següent taula presenta els satèl·its que s'ha aconseguit rebre amb la informació d'aquest repositori:
+
+| Satèl·lit     | Freqüència de transmissió | Ample de banda en recepció | Guany del receptor |
+| ------------- |:-------------------------:|:--------------------------:|:------------------:|
+| NOAA-15       | 137.6200 MHz              | 34 kHz                     | 22 dB              |
+| NOAA-18       | 137.1000 MHz              | 34 kHz                     | 22 dB              |
+| NOAA-19       | 137.9125 MHz              | 34 kHz                     | 22 dB              |
+
+Actualment, l'experiment s'ha realitzat amb un ordinador que conté el sistema operatiu [GNU-Linux](https://www.gnu.org/distros/distros.html), enconcret amb el sistema [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop). El conjunt de programes que es fan servir es llisten a continuació:
 
 - [Gqrx](https://github.com/csete/gqrx) és un programari lliure orientat a comunicar-se amb diferents mòduls de Software Defined Radio (SDR). Aquest programari també inclou un conjunt d'eines per visualitzar i enregistrar l'espectre freqüencial de la senyal rebuda. Informació sobre aquest programa es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Programa-Gqrx) de la wiki.
 - [GPredict](https://github.com/csete/gpredict) és un programari lliure que permet preveure la trajectòria dels satèl·lits i estimar les passades d'aquests en una localització concreta. Informació sobre aquest programa es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Programa-GPredict) de la wiki.
