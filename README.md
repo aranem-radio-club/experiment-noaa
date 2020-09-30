@@ -1,20 +1,13 @@
 # Projecte per recuperar dades de satèl·lits NOAA
 
-Aquest repositori conté informació sobre els diferents programes per poder rebre imatges dels satèl·lits NOAA. Forma part de la 3a jornada STEM de l'espai. El repositori s'organitza dos grans apartats: un apartat on es pot trobar tots els manuals d'instal·lació i un altre amb manuals d'usuari.
+Aquest repositori conté informació sobre els diferents programes per poder rebre imatges dels satèl·lits NOAA (18, 15 i 19). Actualment, l'experiència s'ha realitzat amb un ordinador que conté el sistema operatiu [GNU-Linux](https://www.gnu.org/distros/distros.html), enconcret amb el sistema [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop). El conjunt de programes que es fan servir es llisten a continuació:
 
-## Manuals d'instal·lació
+- [Gqrx](https://github.com/csete/gqrx) és un programari lliure orientat a comunicar-se amb diferents mòduls de Software Defined Radio (SDR). Aquest programari també inclou un conjunt d'eines per visualitzar i enregistrar l'espectre freqüencial de la senyal rebuda. Informació sobre aquest programa es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Programa-Gqrx) de la wiki.
+- [GPredict](https://github.com/csete/gpredict) és un programari lliure que permet preveure la trajectòria dels satèl·lits i estimar les passades d'aquests en una localització concreta. Informació sobre aquest programa es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Programa-GPredict) de la wiki.
+- [noaa-apt](https://github.com/martinber/noaa-apt) és un programari lliure orientat a processar dades de diferents satèl·lits meteorològics i convert-les en imatges. Informació sobre aquest programa es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Programa-noaa-apt) de la wiki.
+- El [RTL-SDR Nooelec](https://nooelec.com/store/nesdr-smart.html) requereix uns drivers específics per poder ser operat des de l'ordinador. Informació sobre aquest driver es pot trobar en [aquesta pàgina](https://github.com/nanosatlab/experiment-noaa/wiki/Drivers-del-RTL-SDR-de-Nooelec) de la wiki.
 
-- [Manual d'instal·lació dels drivers pel RTL-SDR de Nooelec](https://github.com/nanosatlab/experiment-noaa/wiki/Manual-d'instal%C2%B7laci%C3%B3-dels-drivers-pel-RTL-SDR-de-Nooelec)
-- [Manual per instal·lar el programa Gqrx](https://github.com/nanosatlab/experiment-noaa/wiki/Manual-per-instal%C2%B7lar-el-programa-Gqrx)
-- [Manual per instal·lar el programa noaa-apt](https://github.com/nanosatlab/experiment-noaa/wiki/Manual-per-instal%C2%B7lar-el-programa-noaa-apt)
-
-## Manuals d'usuari
-
-- [Manual d'usuari del programa Gqrx](https://github.com/nanosatlab/experiment-noaa/wiki/Manual-d'usuari-del-programa-Gqrx)
-- [Manual d'usuari del programa noaa-apt](https://github.com/nanosatlab/experiment-noaa/wiki/Manual-d'usuari-del-programa-noaa-apt)
-
-## Manuals de construcció
-- [Fabricació d'una antena V-dipol](https://github.com/nanosatlab/experiment-noaa/wiki/Fabricaci%C3%B3-d'una-antena-V-dipol)
+Tots aquests programes són necessaris per poder dur a terme la captura i processament de les imatges transmesses pels satèl·lits NOAA. Si durant el procés d'instal·lació o manipulació del programari trobeu cap problema, podeu aixecar un dubte en la finestra de "[issues](https://github.com/nanosatlab/experiment-noaa/issues)" d'aquest repositori. Intentarem resoldre'l el més aviat possible.
 
 # Manteniment del repositori
 Aquest repositori està mantingut per [@Zosoworld](https://github.com/Zosoworld) i [@Noitty](https://github.com/Noitty).
