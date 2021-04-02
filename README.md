@@ -5,8 +5,8 @@ Aquest repositori conté informació sobre els diferents programes per poder reb
 | Satèl·lit     | Freqüència de transmissió | Ample de banda en recepció | Guany del receptor |
 | ------------- |:-------------------------:|:--------------------------:|:------------------:|
 | NOAA-15       | 137.6200 MHz              | 34 kHz                     | 22 dB              |
-| NOAA-18       | 137.1000 MHz              | 34 kHz                     | 22 dB              |
-| NOAA-19       | 137.9125 MHz              | 34 kHz                     | 22 dB              |
+| NOAA-18       | 137.9125 MHz              | 34 kHz                     | 22 dB              |
+| NOAA-19       | 137.1000 MHz              | 34 kHz                     | 22 dB              |
 
 Actualment, l'experiment s'ha realitzat amb un ordinador que conté el sistema operatiu [GNU-Linux](https://www.gnu.org/distros/distros.html), enconcret amb el sistema [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop). El conjunt de programes que es fan servir es llisten a continuació:
 
